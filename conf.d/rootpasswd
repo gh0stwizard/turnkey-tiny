@@ -1,0 +1,5 @@
+#!/bin/sh -ex
+
+# set root password to "toor"
+echo "root:toor" | /usr/sbin/chpasswd
+
